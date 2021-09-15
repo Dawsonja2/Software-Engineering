@@ -1,0 +1,16 @@
+Player shown a regex ie. a*b+
+Player has inventory with start state(s), transition state(s), and accept state(s)
+Player drags states onto play area, states get auto-named when placed
+Tap on a state and drag - starts transition arrow
+    - release drag on state, points arrow to that state, opens popup to choose element(s) to attach to arrow
+    - drag out of state and then back to same state - creates loop arrow, then opens popup to choose element(S)
+    - release drag on open space - cancels arrow
+Run button - generates test cases, states on board light up as test string gets stepped through?
+Display congrats message if all test strings are accepted (or not accepted as appropriate)
+
+Obviously first levels are super easy, tutorial?
+DFAs to start, NFAs introduced after x levels?
+
+Get all that to work, add increased difficulty, flip to writing regex based on DFA/NFA, etc
+
+All just ideas, what do you think?
